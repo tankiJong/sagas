@@ -19,10 +19,32 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="engine\application\Application.hpp" />
+    <ClInclude Include="engine\application\Event.hpp" />
+    <ClInclude Include="engine\application\Input.hpp" />
+    <ClInclude Include="engine\application\Window.hpp" />
+    <ClInclude Include="engine\core\traits.hpp" />
+    <ClInclude Include="engine\core\util.hpp" />
     <ClInclude Include="engine\engine.h" />
+    <ClInclude Include="engine\math\cylic.hpp" />
+    <ClInclude Include="engine\math\primitives.hpp" />
+    <ClInclude Include="engine\math\shapes.hpp" />
+    <ClInclude Include="engine\math\util.hpp" />
+    <ClInclude Include="engine\platform\platform.hpp" />
+    <ClInclude Include="engine\platform\win.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="engine\application\Application.cpp" />
+    <ClCompile Include="engine\application\Event.cpp" />
+    <ClCompile Include="engine\application\Input.cpp" />
+    <ClCompile Include="engine\application\Window.cpp" />
+    <ClCompile Include="engine\core\util.cpp" />
     <ClCompile Include="engine\engine.cpp" />
+    <ClCompile Include="engine\math\cylic.cpp" />
+    <ClCompile Include="engine\math\primitives.cpp" />
+    <ClCompile Include="engine\math\shapes.cpp" />
+    <ClCompile Include="engine\math\util.cpp" />
+    <ClCompile Include="engine\platform\platform.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
